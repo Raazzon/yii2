@@ -1,0 +1,9 @@
+
+
+The titlte of the project is EMS Employee Manage ment Sysyem
+
+Its still under progress and unsfinshed
+
+The Default Username:Admin
+            Password:Admin  
+It can be changed in admin panel

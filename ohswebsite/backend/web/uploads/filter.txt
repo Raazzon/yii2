@@ -1,0 +1,43 @@
+ if ($model->load(Yii::$app->request->post())) {
+            
+            if($model->checkfilterwords($model->filterwords, $model->description) === true ){
+                $model->save(); 
+            } else {
+                echo 'Allu';
+            }   
+//                // If false
+//              if ($wordValidate !== false) {
+//                    $validate = true;
+//                 $model->save();   
+//              }
+            //$model->save();
+          return $this->redirect(['view', 'id' => $model->id]);
+
+
+
+
+
+ public function checkfilterwords($filterword, $detail){
+        
+        $wordValidate = true;
+        if (strlen($filterword) > 3):
+            $words = explode(",", $filterword);
+            $IncludedWords = array();
+            foreach ($words as $word):
+                if (strpos(strtolower(strip_tags($detail)), strtolower($word)) !== false) {
+                    //          print_r($word); die();
+                    $IncludedWords[] = $word;
+                    //  print_r($IncludedWords); die();
+                    $implodeWords = implode(", ", $IncludedWords);
+                    Yii::$app->getSession()->setFlash("error", '<div class="alert alert-danger">The Content have <strong>Unwanted words:</strong>  <u>' . $implodeWords . '</u> Please make a proper sentences without these words.</div>');
+                    $wordValidate = false;
+                }
+            endforeach;
+        endif;
+        
+        if ($wordValidate === true ){
+            return true;
+        } else {
+            return false;    
+        }
+    }

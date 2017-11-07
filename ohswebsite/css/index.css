@@ -1,0 +1,191 @@
+
+/*Start of header css*/
+
+#brand-and-nav{
+	height: 75px;
+	margin-top: 10px;
+}
+
+
+
+.nav-bar{
+	margin-top: 35px;
+}
+
+.nav-bar ul{
+	float: left;
+}
+
+.nav-bar ul li{
+	float: left;
+	margin-left: 20px;
+	font-size: 14px;
+	list-style:none;
+	
+}
+
+.nav-bar ul li a{
+	text-decoration: none;
+	color: #f26522;
+}
+
+#search-top-btn{
+	float: right;
+	color: #f26522;
+}
+
+/*End of header css*/
+
+/*Start of carousel css*/
+
+#myCarousel{
+	max-height: 500px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.slider-img{
+	width:100%;
+}
+
+/*End of carousel css*/
+
+
+
+
+/*Start of content css*/
+
+.text-content-first{
+	text-align: center;
+	color: #f26522;
+
+}
+
+.text-content-first h3:before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    bottom: 0;
+    left: 49%;
+    border-bottom: 2px solid #41b2e6;
+}
+
+.content-first-des{
+	margin-top: 20px;
+}
+
+.content-first-img{
+	height: 250px;
+	padding: 5px;
+	overflow: hidden;
+
+}
+
+.content-img{
+	width: 100%;
+	height: auto;	
+}
+
+.choose-option{
+    position: absolute;
+    width: 97.5%;
+    height: 50px;
+    right: 5px;
+    left: 5px;
+    bottom: 0px;
+    color: white;
+    padding: 0px;
+    font-size: 10px;
+    line-height: 18px;
+    
+
+}
+
+.symbol{
+	background-color: #41b2e6;
+	height: 100%;
+
+}
+
+.symbol img{
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+.symbol-text{
+	text-align: left;
+	font-size: 20px;
+	line-height: 55px;
+	background-color: black;      
+	opacity: 0.5;
+	padding-left: 30px;
+
+
+}
+
+.content-second{
+	background-color: #f4f4f4;
+	height: 345px;
+	width: 100%;
+	margin-top: 35px;
+	float: left;
+	overflow: hidden;
+}
+
+#what-we-do{
+	margin-top: 40px;	
+}
+
+.paragraph{
+	margin-top: 30px;
+	color: #aaaaaa;
+	margin-left: 5px;
+}
+
+#text-content-second h3:before{
+	margin-left: -20px !important;
+}
+
+.read-more{
+	color:#41b2e6 
+}
+
+.content-text{
+	position: absolute;
+    width: 97.5%;
+    height: 50px;
+    right: 5px;
+    left: 5px;
+    bottom: 0px;
+    color: white;
+    padding: 0px;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: left;
+	font-size: 20px;
+	background-color: black;      
+	opacity: 0.5;
+	padding-left: 30px;
+}
+
+.content-text p{
+	margin-left: 15px;
+}
+.content-second-img{
+	float: left;
+	text-align: center;
+
+}
+
+.content-img{
+	background-size: cover;
+
+}
+
+
+
+
+
+
+/*End of content css*/

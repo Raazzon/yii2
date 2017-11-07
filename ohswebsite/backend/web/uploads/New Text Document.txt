@@ -1,0 +1,103 @@
+USE [StudentDB]
+GO
+/****** Object:  StoredProcedure [dbo].[sp_Delete]    Script Date: 21-Nov-16 8:21:07 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[sp_Delete]
+(
+	@StudentName NVARCHAR(50),
+	@StudentAddress NVARCHAR(50),
+	@StudentGender NVARCHAR(50),
+	@StudentContact NVARCHAR(50)
+)
+AS
+BEGIN
+	SET NOCOUNT ON;
+    DELETE FROM StudentInfo WHERE StudentName = 'asdkjf'
+END
+
+USE [StudentDB]
+GO
+/****** Object:  StoredProcedure [dbo].[sp_Select]    Script Date: 21-Nov-16 8:21:25 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[sp_Select]
+(
+	@StudentName NVARCHAR(50),
+	@StudentAddress NVARCHAR(50),
+	@StudentGender NVARCHAR(50),
+	@StudentContact NVARCHAR(50)
+)
+AS
+BEGIN
+	SET NOCOUNT ON;
+    SELECT * FROM StudentInfo;
+END
+
+USE [StudentDB]
+GO
+/****** Object:  StoredProcedure [dbo].[sp_Update]    Script Date: 21-Nov-16 8:21:41 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[sp_Update]
+(
+	@StudentName NVARCHAR(50),
+	@StudentAddress NVARCHAR(50),
+	@StudentGender NVARCHAR(50),
+	@StudentContact NVARCHAR(50)
+)
+AS
+BEGIN
+	SET NOCOUNT ON;
+	UPDATE StudentInfo SET StudentName = 'Kada' WHERE StudentId = '1'
+END
+
+ftp:://ftp.mirror.nl
+.east.net
+.leo.org
+bari chu sathi ma bari chu
+bangnae napaya ko pokhari sari chu
+
+
+mero geet kasele sunos ya na sunos
+ma umbiyako darti le sunos
+ma mati ko akash le sunos
+
+
+gham herda rap dekya
+gun herda dak dekya
+tara herda tada dekya
+ful herda kada dekya
+maele sabae ma kot dekya
+
+jivan khel ho ani hami yesko keladi
+
+kitab padae ma bugincha bhanne kha cha ra
+
+paisa le subida dincha tara sukha didaena
+
+https://www.plexcoin.com/?ref=ITKBtDpU8p
+
+
+
